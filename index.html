@@ -26,62 +26,6 @@
         labelVideo: 'Video',
         labelMap: 'Map'
       }
-    },
-    storageManager: false,
-    deviceManager: {
-      devices: [
-        {
-          name: 'Desktop',
-          width: '',
-        },
-        {
-          name: 'Tablet',
-          width: '768px',
-          widthMedia: '992px',
-        },
-        {
-          name: 'Mobile',
-          width: '320px',
-          widthMedia: '480px',
-        },
-      ]
-    },
-    panels: {
-      defaults: [
-        {
-          id: 'layers',
-          el: '.panel__right',
-          resizable: {
-            maxDim: 350,
-            minDim: 200,
-            tc: 0,
-            cl: 1,
-            cr: 0,
-            bc: 0,
-            keyWidth: 'flex-basis',
-          },
-        },
-        {
-          id: 'panel-switcher',
-          el: '.panel__switcher',
-          buttons: [
-            {
-              id: 'show-layers',
-              active: true,
-              label: 'Layers',
-              command: 'show-layers',
-              togglable: false,
-            },
-            {
-              id: 'show-style',
-              active: true,
-              label: 'Styles',
-              command: 'show-styles',
-              togglable: false,
-            },
-          ],
-        },
-      ]
     }
   });
 </script>
