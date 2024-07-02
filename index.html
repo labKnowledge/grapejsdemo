@@ -1,0 +1,18 @@
+<link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet"/>
+<script src="https://unpkg.com/grapesjs"></script>
+<script src="path/to/bob-gjs-blocks-basic.min.js"></script>
+
+<div id="gjs"></div>
+
+<script type="text/javascript">
+  var editor = grapesjs.init({
+    fromElement: 1,
+    container: "#gjs",
+    plugins: ["bob-gjs-blocks-basic"],
+    pluginsOpts: {
+      "bob-gjs-blocks-basic": {
+        /* ...options */
+      }
+    }
+  });
+</script>
